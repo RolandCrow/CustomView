@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        tools:context=".MainActivity">
+
+    <com.example.customview.DurationTextView
+            android:id="@+id/durationView1"
+            app:template = "%s was spent running"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <com.example.customview.DurationTextView
+            android:id="@+id/durationView2"
+            app:template = "%s was spent running"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <com.example.customview.DurationTextView
+            android:id="@+id/durationView3"
+            app:template = "%s was spent running"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <com.example.customview.DurationTextView
+            android:id="@+id/durationView4"
+            app:template = "%s was spent running"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <com.example.customview.DurationTextView
+            android:id="@+id/durationView5"
+            app:template = "%s was spent running"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+</LinearLayout>
